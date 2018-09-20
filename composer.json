@@ -1,0 +1,41 @@
+{
+    "name": "imritesh/formhelpers",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ritesh Singh",
+            "email": "hello@imritesh.com",
+            "homepage": "https://imritesh.com"
+        }
+    ],
+    "homepage": "https://github.com/imritesh/formhelpers",
+    "keywords": ["Laravel", "FormHelpers"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "imritesh\\FormHelpers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "imritesh\\FormHelpers\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "imritesh\\FormHelpers\\FormHelpersServiceProvider"
+            ],
+            "aliases": {
+                "FormHelpers": "imritesh\\FormHelpers\\Facades\\FormHelpers"
+            }
+        }
+    }
+}
