@@ -31,10 +31,6 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 
 If you discover any security related issues, please email hello@imritesh.com instead of using the issue tracker.
 
-## Credits
-
-- [Ritesh Singh][link-author]
-- [All Contributors][link-contributors]
 
 ## License
 
